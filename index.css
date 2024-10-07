@@ -1,12 +1,23 @@
+body{
+    background-color: black;
+    width: 90vw;
+}
+
 .caixas{
     width: 100%;
     height: auto;
     max-height: 100vh;
+    padding: 30px;
+
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .caixa{
     width: 300px;
     height: 300px;
+    padding: 20px;
+    box-sizing: border-box;
     
     background-color: azure;
     border-radius: 5px;
